@@ -147,7 +147,7 @@ impl IVerge {
     pub fn template() -> Self {
         Self {
             clash_core: Some("clash-meta".into()),
-            language: Some("zh".into()),
+            language: Some("fa".into()),
             theme_mode: Some("system".into()),
             #[cfg(not(target_os = "windows"))]
             env_type: Some("bash".into()),

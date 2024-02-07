@@ -87,6 +87,7 @@ const SettingVerge = ({ onError }: Props) => {
           onGuard={(e) => patchVerge({ language: e })}
         >
           <Select size="small" sx={{ width: 100, "> div": { py: "7.5px" } }}>
+            <MenuItem value="fa">فارسی</MenuItem>
             <MenuItem value="zh">中文</MenuItem>
             <MenuItem value="en">English</MenuItem>
             <MenuItem value="ru">Русский</MenuItem>
