@@ -26,7 +26,7 @@ const SettingPage = () => {
         <IconButton
           size="small"
           color="inherit"
-          title="@clash-verge-rev/clash-verge-rev"
+          title="@i-panel/clash-verge-rev"
           onClick={toGithubRepo}
         >
           <GitHub fontSize="inherit" />

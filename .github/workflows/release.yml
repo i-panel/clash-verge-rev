@@ -35,7 +35,7 @@ jobs:
       - name: Apply Patch
         if: matrix.target == 'aarch64-pc-windows-msvc'
         run: |
-          git config --global user.email "clash-verge-rev@github.io"
+          git config --global user.email "i-panel@github.io"
           git config --global user.name "clash-verge-rev"
           git am patches/support-windows-aarch64.patch
 
