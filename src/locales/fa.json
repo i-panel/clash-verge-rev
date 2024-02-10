@@ -20,8 +20,8 @@
 
   "Edit": "ویرایش",
   "Icon": "آیکون",
-  "Test URL": "آزمون URL",
-  "Test All": "آزمون همه",
+  "Test URL": "تست URL",
+  "Test All": "تست همه",
 
   "Profiles": "پروفایل‌ها",
   "Profile URL": "آدرس پروفایل",
@@ -75,7 +75,7 @@
   "Allow Lan": "اجازه شبکه محلی",
   "IPv6": "IPv6",
   "Log Level": "سطح گزارش‌گیری",
-  "Mixed Port": "پورت مختلط",
+  "Port Config": "پورت کانفیگ",
   "Random Port": "پورت تصادفی",
   "After restart to take effect": "پس از راه‌اندازی مجدد اعمال می‌شود",
   "External": "خارجی",
