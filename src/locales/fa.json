@@ -152,6 +152,7 @@
   "Enable Builtin Enhanced": "فعال‌سازی بهبودهای داخلی",
   "Proxy Layout Column": "ستون طرح پراکسی",
   "Default Latency Test": "تست تاخیر پیش‌فرض",
+  "Defaule Latency Timeout": "زمان تأخیر پیش‌فرض",
 
   "Auto Log Clean": "پاکسازی خودکار گزارش‌ها",
   "Never Clean": "هرگز پاک نکن",
