@@ -160,5 +160,15 @@
   "Retain 30 Days": "نگهداری 30 روز",
   "Retain 90 Days": "نگهداری 90 روز",
 
-  "Portable Updater Error": "نسخه قابل حمل از به‌روزرسانی درون برنامه پشتیبانی نمی‌کند. لطفاً به‌صورت دستی دانلود و جایگزین کنید"
+  "Tun Stack": "استک Tun",
+  "Device Name": "نام دستگاه",
+  "Auto Route": "مسیر خودکار",
+  "Strict Route": "مسیر دقیق",
+  "Auto Detect Interface": "شناسایی خودکار رابط",
+  "DNS Hijack": "DNS Hijack",
+  "Max Transmission Unit": "حداکثر واحد انتقال",
+  "Portable Updater Error": "خطا در به‌روزرسانی نسخه پرتابل",
+  "Tun Mode Info Windows": "اطلاعات حالت Tun در ویندوز",
+  "Tun Mode Info Unix": "اطلاعات حالت Tun در یونیکس",
+  "System and Mixed Can Only be Used in Service Mode": "سیستم و ترکیبی فقط می‌توانند در حالت سرویس استفاده شوند"
 }
