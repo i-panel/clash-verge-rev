@@ -2,17 +2,17 @@
 
 ### Features
 
-- 全新专属 Verge rev UI 界面 (by @Amnesiash) 及细节调整
-- 提供允许无效证书的开关
-- 删除不必要的快捷键
-- Provider 更新添加动画
-- Merge 支持 Provider
-- 更换订阅框的粘贴按钮，删除默认的"Remote File" Profile 名称
-- 链接菜单添加节点显示
+- New exclusive Verge rev UI interface (by @Amnesiash) and detailed adjustments
+- Provide switch to allow invalid certificates
+- Remove unnecessary shortcut keys
+- Provider update adds animation
+- Merge supports Provider
+- Change the paste button of the subscription box and delete the default "Remote File" Profile name
+- Add node display to link menu
 
 ### Bugs Fixes
 
-- Linux 下图片显示错误
+- Picture display error under Linux
 
 ---
 
@@ -20,10 +20,10 @@
 
 ### Features
 
-- 支持自定义托盘图标
-- 支持禁用代理组图标
-- 代理组显示当前代理
-- 修改 `打开面板` 快捷键为`打开/关闭面板`
+- Support custom tray icon
+- Support disabling agent group icon
+- Agent group shows current agents
+- Modify the shortcut key of `Open Panel` to `Open/Close Panel`
 
 ---
 
@@ -35,9 +35,9 @@
 
 ### Bugs Fixes
 
-- Tun 设置项显示错误的问题
-- 修改一些默认值
-- 启动时不更改启动项设置
+- Tun setting items display incorrectly
+- Modify some default values
+- Do not change startup item settings at startup
 
 ---
 
