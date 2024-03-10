@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { useLockFn } from "ahooks";
 import {
   TextField,
-  Switch,
   Select,
   MenuItem,
   Typography,
@@ -11,7 +10,7 @@ import {
   Tooltip,
 } from "@mui/material";
 import { ArrowForward, Settings, Shuffle } from "@mui/icons-material";
-import { DialogRef, Notice } from "@/components/base";
+import { DialogRef, Notice, Switch } from "@/components/base";
 import { useClash } from "@/hooks/use-clash";
 import { GuardState } from "./mods/guard-state";
 import { WebUIViewer } from "./mods/web-ui-viewer";
@@ -118,7 +117,7 @@ const SettingClash = ({ onError }: Props) => {
         extra={
           <Tooltip title={t("Random Port")}>
             <IconButton
-              color={enable_random_port ? "success" : "inherit"}
+              color={enable_random_port ? "primary" : "inherit"}
               size="small"
               onClick={() => {
                 Notice.success(t("After restart to take effect"), 1000);

@@ -168,6 +168,7 @@ const SettingVerge = ({ onError }: Props) => {
           <Input
             value={startup_script}
             disabled
+            sx={{ width: 230 }}
             endAdornment={
               <>
                 <Button
