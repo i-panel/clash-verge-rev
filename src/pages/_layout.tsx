@@ -104,9 +104,6 @@ const Layout = () => {
           square
           elevation={0}
           className={`${OS} layout`}
-          onPointerDown={(e: any) => {
-            if (e.target?.dataset?.windrag) appWindow.startDragging();
-          }}
           onContextMenu={(e) => {
             // only prevent it on Windows
             const validList = ["input", "textarea"];
@@ -125,12 +122,20 @@ const Layout = () => {
             ({ palette }) => ({
               bgcolor: palette.background.paper,
             }),
+            OS === "linux"
+              ? {
+                  borderRadius: "8px",
+                  border: "2px solid var(--divider-color)",
+                  width: "calc(100vw - 4px)",
+                  height: "calc(100vh - 4px)",
+                }
+              : {},
           ]}
         >
-          <div className="layout__left" data-windrag>
-            <div className="the-logo" data-windrag>
+          <div className="layout__left" data-tauri-drag-region="true">
+            <div className="the-logo" data-tauri-drag-region="true">
               {!isDark ? <LogoSvg /> : <LogoSvg_dark />}
-              {!portableFlag && <UpdateButton className="the-newbtn" />}
+              {<UpdateButton className="the-newbtn" />}
             </div>
 
             <List className="the-menu">
@@ -145,17 +150,17 @@ const Layout = () => {
               ))}
             </List>
 
-            <div className="the-traffic" data-windrag>
+            <div className="the-traffic">
               <LayoutTraffic />
             </div>
           </div>
 
-          <div className="layout__right" data-windrag>
-            {OS === "windows" && (
-              <div className="the-bar">
-                <LayoutControl />
+          <div className="layout__right">
+            {
+              <div className="the-bar" data-tauri-drag-region="true">
+                {OS !== "macos" && <LayoutControl />}
               </div>
-            )}
+            }
 
             <TransitionGroup className="the-content">
               <CSSTransition

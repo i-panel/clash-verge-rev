@@ -123,6 +123,7 @@
   "Open Core Dir": "بازکردن پوشه هسته",
   "Open Logs Dir": "بازکردن پوشه گزارش‌ها",
   "Check for Updates": "بررسی برای به‌روزرسانی‌ها",
+  "Open Dev Tools": "Open Dev Tools",
   "Verge Version": "نسخه Verge",
   "theme.light": "روشن",
   "theme.dark": "تاریک",
@@ -150,6 +151,7 @@
   "toggle_tun_mode": "تغییر وضعیت حالت Tun",
 
   "App Log Level": "سطح گزارش‌گیری برنامه",
+  "Auto Check Update": "بررسی خودکار به‌روزرسانی",
   "Auto Close Connections": "بستن خودکار اتصالات",
   "Enable Clash Fields Filter": "فعال‌سازی فیلترهای Clash",
   "Enable Builtin Enhanced": "فعال‌سازی بهبودهای داخلی",

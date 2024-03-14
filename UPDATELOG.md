@@ -1,3 +1,29 @@
+## v1.5.8
+
+### Features
+
+- Optimize UI details
+- Linux drawing window rounded corners
+- Open DevTools
+
+### Bugs Fixes
+
+- Fixed the issue of kernel crash when Tun is enabled under MacOS
+
+---
+
+## v1.5.7
+
+### Features
+
+- Optimize various details of UI
+- Provide menu bar icon style switching options (monochrome/color/disabled)
+- Add automatic check for updates switch
+- MacOS turns on Tun mode to automatically modify DNS
+- Adjust the draggable area (try to fix the problem that the touch screen cannot be dragged)
+
+---
+
 ## v1.5.6
 
 ### Features
